@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background: rgb(231, 231, 231);
+  position: absolute;
+}
+.menu_nav {
+  text-align: center;
+}
+.movie_list {
+  border-radius: 10px;
+  background: #fff;
+  font-size: 12px;
+  padding: 15px;
+}
+.movie_img {
+  width: 100%;
+  height: 200px;
+}
+.movie_img img {
+  width: 100%;
+  height: 100%;
+}
+.movie_info div {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.movie_describe {
+  height: 55px;
+  margin-top: 10px;
+  width: 100%;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
